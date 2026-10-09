@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: gray;
+}
+.cabecalho{
+    background-color: blue;
+    display: flex;
+}
+.cabecalho h1{
+    color: white;
+    margin-left: 500px;
+    margin-top: 55px;
+}
+.cabecalho img{
+    width: 150px;
+    height: 200px;
+    margin-left: 30px;
+    margin-top: 5px;
+    border: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 5px 3px black;
+}
+.sub{
+    background-color: white;
+    margin-top: 10px;
+}
+.sub h1{
+    text-align: center;
+    color: blue;
+}
