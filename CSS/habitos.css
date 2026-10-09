@@ -1,0 +1,87 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(224, 221, 221);
+}
+
+.cabecalho {
+    background-color: rgb(9, 9, 155);
+    display: flex;
+}
+
+.cabecalho h1 {
+    color: white;
+    margin-left: 480px;
+    margin-top: 55px;
+}
+
+.cabecalho a {
+    color: white;
+    padding: 40px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.cabecalho a:hover {
+    color: green;
+    padding: 40px;
+    margin-top: 25px;
+    margin-left: 20px;
+    font-size: x-large;
+}
+
+.cabecalho img {
+    width: 150px;
+    height: 180px;
+    margin-left: 30px;
+    margin-top: 5px;
+    border: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 5px 3px black;
+}
+.saude {
+    text-align: center;
+    color: blue;
+    background-color: white;
+    margin-top: 5px;
+}
+.cards{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.card {
+    background-color:  rgb(9, 9, 155);
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card h3 {
+    margin: 15px 0 10px;
+}
+
+.card p {
+    margin-bottom: 15px;
+}
+
+.card:hover {
+    background-color:  rgb(9, 9, 155);
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px white;
+    color: white;
+    transition: 0.5s;
+}
